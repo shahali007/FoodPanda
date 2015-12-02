@@ -1,0 +1,110 @@
+body{
+    background: #f1f1f1;
+    padding-top: 110px;
+}
+
+/* header css*/
+header{
+    padding: 5px 0;
+}
+header.navbar-inverse {
+    border-bottom: 0;
+    background:#fff;
+    box-shadow: 0 2px 2px 0 lightgray;
+}
+header.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+header.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+    line-height: 50px;
+}
+header.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+/* left-menu css*/
+.left-menu {
+    background: #fff;
+    position: fixed;
+    top: 110px;
+    margin-left: 15px;
+}
+.left-menu h3{
+    color: #338D11;
+}
+.left-menu a {
+    color: #000;
+    border-bottom: 2px dotted #f1f1f1;
+    display: block;
+    padding: 5px 0;
+}
+.left-menu a:hover {
+    color: #338D11;
+}
+/* food-menu css*/
+.food-menu {
+    background: #fff;
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
+.food-menu .price a{
+    color: #338D11;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.food-menu h4{
+    color: #338D11;
+}
+.food-menu h3{
+    padding-top:0;
+}
+.food-menu img{
+    margin-bottom: 15px;
+}
+.food-menu .row{
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s ;
+    -o-transition: all 0.6s ;
+    transition: all 0.6s ;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #F8F6F1;
+}
+.food-menu .row:hover {
+    border: 2px solid #53D769;
+}
+
+/* rightSide css*/
+.rightSide {
+    position: fixed;
+    right: 90px;
+    background: #fff;
+}
+.rightSide .row p{
+    border-top: 1px dotted #f1f1f1;
+    padding-top: 10px;
+}
+
+/* footer-area css*/
+#footer-area{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 25px 0;
+}
+#footer-area a{
+    color: #000 ;
+    font-weight: bold;
+}
+
+
+/* form css*/
+.form-control{
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
